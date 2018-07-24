@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installing Eclipse (Linux)
+title: Installing Eclipse on Linux
 ---
 ## About Eclipse
 
@@ -16,16 +16,12 @@ To see if you have JDK installed, run the following command
 
 ```
 $ java -version
-java version "1.8.0_151"
-Java(TM) SE Runtime Environment (build 1.8.0_151-b12)
-Java HotSpot(TM) 64-Bit Server VM (build 25.151-b12, mixed mode)
+some stuff about java
 ```
 
-The terminal should return something like the example given.
+The terminal should not return "Command not found".
 
-If you're running Java 8, consider upgrading to Java 10, as Oracle will no longer be supporting it.  Be warned, though, as Java 8 is not fully compatible with Java 10.
-
-If the terminal did NOT return somthing resembling the example, you need to install JDK.  See this blog post for information.
+If the terminal DID return "Command not found", you need to install JDK.
 
 ### 2. Download Eclipse
 
@@ -45,7 +41,7 @@ Done
 
 ### 4. Change owners and permissions
 
-`tar` will not set the user and group automaticlly, so you can set it yourself.
+`tar` will not set the user and group automatically, so you can set it yourself.
 
 ```
 $ chown -R username:groupname eclipse
