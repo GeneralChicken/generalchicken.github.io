@@ -23,9 +23,9 @@ If the output is NOT "Command not found", Java is already installed and running 
 
 ### Installing Oracle Java
 
-Download the tarball from [Oracle's website](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html).  Remember to accept Oracle's policy.
+Download the tarball from [Oracle's website](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html).  Remember to accept Oracle's policy.  Move the file to your preferred location.  `/usr/lib/jvm` is quite standard.
 
-Extract the package by using
+Extract the package by usin
 
 ```
 $ tar xvfz jdk-version_linux-x64_bin.tar.gz
@@ -39,7 +39,7 @@ where `version` is the version of JDK that you are installing.
 
 ### Installing OpenJDK
 
-Download the tarball from [OpenJDK's website](http://jdk.java.net/10/ "OpenJDK downloads").
+Download the tarball from [OpenJDK's website](http://jdk.java.net/10/ "OpenJDK downloads").  `/usr/lib/jvm` is quite standard.
 
 Extract the package by using
 
