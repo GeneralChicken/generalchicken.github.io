@@ -25,7 +25,7 @@ If the output is NOT "Command not found", Java is already installed and running 
 
 Download the tarball from [Oracle's website](http://www.oracle.com/technetwork/java/javase/downloads/jdk10-downloads-4416644.html).  Remember to accept Oracle's policy.  Move the file to your preferred location.  `/usr/lib/jvm` is quite standard.
 
-Extract the package by usin
+Extract the package by using
 
 ```
 $ tar xvfz jdk-version_linux-x64_bin.tar.gz
