@@ -20,7 +20,7 @@ or for bleeding-edge features, along with the risk of a broken application, try:
 
 ## Installing using .deb
 
-Really, if you can use a snap, it's much simpler.  However, if you don't want to use snaps, use the fllowing commands to install it from a .deb file:
+Really, if you can use a snap, it's much simpler.  However, if you don't want to use snaps, use the following commands to install it from a .deb file:
 
     sudo dpkg -i <file>.deb
     sudo apt-get install -f
